@@ -1,0 +1,28 @@
+.services-mf .service-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ddd; /* Opcional, para visualización */
+    margin-bottom: 20px;
+    height: 100%; /* Ajustar para que todos tengan la misma altura */
+  }
+  
+  .services-mf .style-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 100%; /* Ajustar ancho para centrar */
+  }
+  
+  .services-mf .style-logo img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .services-mf .service-content {
+    flex: 1; /* Permite que el contenido tome el espacio restante */
+  }
+  
